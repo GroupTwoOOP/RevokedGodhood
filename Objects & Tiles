@@ -19,3 +19,67 @@ breakable walls
 runes
 bridges
 
+monsters 
+
+goblin
+speed 1
+hp 10
+damage 1
+
+wraith
+speed 2
+hp 5
+damage 1
+
+bats 
+speed 3
+hp 2
+damage 1
+
+undead
+speed 1
+hp 5
+damage 2
+
+bandits melee
+speed 2
+hp 10
+damage 1
+
+bandits ranged
+speed 1
+hp 6
+damage 1
+ranged atk 3 cell
+
+towers
+speed move in a line until it hits something
+range 2 cells
+damage 5
+hp 25 if atked while moving it is broken preventing future movement
+
+dragon
+speed 2
+hp 25
+damage 3
+magic attacks
+
+archmage
+speed 0
+hp 30
+damage 0
+tower control
+
+golem
+speed move once every 20 seconds
+hp 50
+damage 1
+damage reduc 2
+
+necromancer
+speed 2
+hp 15
+damage 0
+heals undead and spawns one every 20 seconds
+
+
