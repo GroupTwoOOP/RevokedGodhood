@@ -76,7 +76,7 @@ public abstract class Items implements Serializable{
 	public String getType() {
 		return type;
 	}
-	protected void rename(String s){
+	protected void rename(String s) {
 		name = s;
 	}
 	public int getRank() {
@@ -85,9 +85,7 @@ public abstract class Items implements Serializable{
 	public void setRank(int rank) {
 		this.rank = rank;
 	}
-
 	public void setValue(int i) {
 		this.value = i;		
 	}
-
 }

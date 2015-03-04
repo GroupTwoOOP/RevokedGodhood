@@ -5,7 +5,7 @@ import greenfoot.Greenfoot;
 
 public class Button extends Actor{
 
-	static String[] button = {"image/exit.png", "image/load.png", "image/new.png", "image/save.png", "image/save'n exit.png"};
+	static String[] button = {"images/exit.png", "images/load.png", "images/new.png", "images/save.png"};
 	private int num;
 	public Button( int i){
 		this.num = i;
@@ -27,9 +27,6 @@ public class Button extends Actor{
 				
 				break;
 			case 3:
-				
-				break;
-			case 4:
 				
 				break;
 			}
