@@ -1,4 +1,4 @@
-package box;
+package Items;
 
 import greenfoot.Actor;
 

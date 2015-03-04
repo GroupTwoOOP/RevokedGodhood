@@ -7,6 +7,7 @@ public class Staff extends Items{
 	public Staff(String s, boolean loot) {
 		super(s, type, loot);
 
+		
 	}
 
 }
